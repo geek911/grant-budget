@@ -15,7 +15,7 @@ class PersonnelBudget(BaseUuidModel):
         verbose_name="Position",
         on_delete=models.CASCADE)
 
-    name = models.CharField(
+    personnel_name = models.CharField(
         verbose_name="Name",
         max_length=50)
 

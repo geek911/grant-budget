@@ -16,12 +16,12 @@ class Grant(BaseUuidModel):
         null=True,
         blank=True)
 
-    start = models.DateField(
+    start_date = models.DateField(
         verbose_name="Grant start date",
         null=True,
         blank=True)
 
-    end = models.DateField(
+    end_date = models.DateField(
         verbose_name="Grant end date",
         null=True,
         blank=True)
